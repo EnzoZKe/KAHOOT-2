@@ -128,6 +128,9 @@ function bancoPerguntas(){
            "respCerta4":false
         }
      ]
+
+     localStorage.setItem('dadosPerguntas', JSON.stringify(questions))
+     return questions
 }
 
 
