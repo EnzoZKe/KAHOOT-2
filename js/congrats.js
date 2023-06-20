@@ -8,6 +8,7 @@ if (pontos == null) {
 //console.log(pontos);
 
 
+
 var dados = []
 dados = JSON.parse(localStorage.getItem('dadosPerguntas'))
 if (dados == null) {
