@@ -46,6 +46,7 @@ function registrar(){
         'respCerta3': respCerta3,
         'respCerta4': respCerta4
     }
+    
     console.log(Awns);
 
     questions.push(Awns)

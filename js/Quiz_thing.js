@@ -9,6 +9,7 @@ console.log(questions);
 
 mostrarPerguntas()
 
+
 function mostrarPerguntas() {
     //for (atual in questions) {
     if (atual >= questions.length) {
