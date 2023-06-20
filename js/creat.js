@@ -64,7 +64,7 @@ function colocaNome(){
 }
 
 function bancoPerguntas(){
-    [
+    var dados = [
         {
            "total_de_perguntas":1,
            "perg":"De que ano é esse mapa",
@@ -145,6 +145,6 @@ function bancoPerguntas(){
         }
      ]
 
-     localStorage.setItem('dadosPerguntas', JSON.stringify(questions))
-     return questions
+     localStorage.setItem('dadosPerguntas', JSON.stringify(dados))
+     return dados
 }
