@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QUIZZ</title>
+    <link rel="stylesheet" href="pag.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <a href="index.html"> <img class="imag" src="/imgs/Group 1.png" > </a>
+        <nav class="menu"> 
+            <ul> </ul>
+            <a href="#"> Coloque o código </a> 
+            <a href="#"> Criar QUIZZ </a> 
+            <a href="#"> Contato </a> 
+        </nav>    
+    </header>
+    <br>
+    <main class="main_quiz">
+        <div class="respostas">
+            <p id="pontos"></p>
+            <p id="title"></p>
+            <div id="image" ></div>
+            <div>
+                <button onclick="checkResp1()" class="rede space" id="resp1"></button>
+                <button onclick="checkResp2()" class="greene space" id="resp2"></button>
+            </div>
+            <div>
+                <button onclick="checkResp3()" class="yellowe space" id="resp3"></button>
+                <button onclick="checkResp4()" class="blau space" id="resp4"></button>
+            </div>
+        </div>
+    </main>
+</body>
+<script src="js/Quiz_thing.js"></script>
+</html>

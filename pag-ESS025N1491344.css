@@ -1,0 +1,130 @@
+body{
+    background-image: url(imgs/fundo-sem-costura-com-sinal-azul-monocromatico-pontos-de-interrogacao-pano-de-fundo-tempestade-de-feedback-de-feedback_499817-919.avif);
+    font-family: arial;
+}
+.cabecalho{
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right:20px;
+}
+.menu{
+    display: flex;
+}
+.menu > a{
+    height: 60px;
+    align-items: center;
+    padding: 10px;
+    color: blue;
+    font-size:large;
+    text-decoration: none;
+    text-shadow: 3px 3px lightblue;
+}
+.imag{
+    width: 160px;
+    justify-content: space-between;
+}
+
+.respostas{
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    width: 500px;
+    justify-content: center;
+    align-items: center;
+    margin: 0% auto;
+}
+.pergunta{
+   text-align: center;
+   text-shadow: 2px 2px cornflowerblue;
+}
+button{
+    width: 160px;
+    background-color: whitesmoke;
+    border: 2px solid blue;
+    color: black;
+    font-size: 20px;
+    border-radius: 4px;
+    height: 50px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+button
+.divv{
+    background-position: top center;
+    background-size: cover;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+
+}
+.imagem{
+    width: 150px;
+    height: 150px;
+}
+.div{
+    height: 650px;
+    background-position: top center;
+    background-size: cover;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.respostas img {
+    width: 300px;
+}
+
+h1{
+    text-align: center;
+    text-align: center;
+     text-shadow: 2px 2px cornflowerblue;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+}
+
+main .fullQuests {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    width: 500px;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+    margin: 0% auto;
+}
+
+.pergs{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+.rasdio{
+    display: flex;
+    align-self: flex-start;
+}
+
+.inpu{
+    border: 2px solid blue;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.vitoria{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.foto_win{
+    width: 200px;
+}
